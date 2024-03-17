@@ -309,3 +309,11 @@ textarea {
     border: 0;
     width: 100%;
 }
+
+/* responsive added */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px){
+    
+}
