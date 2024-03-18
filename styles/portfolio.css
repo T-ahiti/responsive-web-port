@@ -315,7 +315,16 @@ textarea {
     display: none;
 }
 @media screen and (max-width:576px){
-    .skills-container, footer, .about-info-container{
+    .header{
+        background-image: none;
+    }
+
+    #hardy{
+        width: 100%;
+        height: auto;
+    }
+
+    .skills-container, footer, .about-info-container, nav, .banner{
         flex-direction: column;
     }
 
