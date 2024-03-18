@@ -326,10 +326,21 @@ textarea {
     footer{
         padding: 10px;
     }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    .contact input[type="text"], .contact input[type="email"],
+    textarea {
+        width: 70%;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:96px){
     .resume-container{
         flex-direction: column;
     }
+
 }
