@@ -315,7 +315,7 @@ textarea {
     display: none;
 }
 @media screen and (max-width:576px){
-    .skills-container, footer{
+    .skills-container, footer, .about-info-container{
         flex-direction: column;
     }
 
@@ -323,7 +323,7 @@ textarea {
         flex-direction: column;
     }
 
-    footer{
+    footer, .about{
         padding: 10px;
     }
 
