@@ -315,12 +315,16 @@ textarea {
     display: none;
 }
 @media screen and (max-width:576px){
-    .skills-container {
+    .skills-container, footer{
         flex-direction: column;
     }
 
     .resume-container{
         flex-direction: column;
+    }
+
+    footer{
+        padding: 10px;
     }
 }
 
