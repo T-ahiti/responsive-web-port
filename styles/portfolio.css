@@ -315,5 +315,17 @@ textarea {
     display: none;
 }
 @media screen and (max-width:576px){
-    
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .resume-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:96px){
+    .resume-container{
+        flex-direction: column;
+    }
 }
