@@ -328,9 +328,13 @@ textarea {
     }
 
     .banner-conc{
-        margin-top: 100px;
+        margin-top: 125px;
     }
-    
+
+    .button{
+        margin-bottom: 10px;
+    }
+
     .banner-title, .banner-conc, .resume-item-description{ 
         width: 100%;  
     }
