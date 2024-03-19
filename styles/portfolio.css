@@ -322,6 +322,18 @@ textarea {
         width: 100%;
         height: auto;
     }
+ 
+    .banner-title{
+        top: auto;
+    }
+
+    .banner-conc{
+        margin-top: 100px;
+    }
+    
+    .banner-title, .banner-conc, .resume-item-description{ 
+        width: 100%;  
+    }
     
     .skills-container, footer, .about-info-container, nav, .banner{
         flex-direction: column;
@@ -331,11 +343,14 @@ textarea {
         flex-direction: column;
     }
     
+    .banner{
+        padding: 20px;
+    }
     footer, .about{
         padding: 10px;
     }
 
-    .footer-column{
+    .footer-column, .banner-contant {
         width: 100%;
     }
 
