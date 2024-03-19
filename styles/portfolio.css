@@ -116,7 +116,6 @@ nav a {
 .banner-title {
     font-size: 85px;
     color: #181818;
-    font-size: 85px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -323,7 +322,7 @@ textarea {
         width: 100%;
         height: auto;
     }
-
+    
     .skills-container, footer, .about-info-container, nav, .banner{
         flex-direction: column;
     }
@@ -331,7 +330,7 @@ textarea {
     .resume-container{
         flex-direction: column;
     }
-
+    
     footer, .about{
         padding: 10px;
     }
